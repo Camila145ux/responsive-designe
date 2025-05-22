@@ -1,0 +1,67 @@
+.hero {
+    background-color: #eea74a;
+    color: rgb(83, 82, 82);
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .cuadro {
+    background: rgb(216, 88, 88);
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+
+
+  /* Full HD (≥1920px) */
+  @media screen and (min-width: 1920px) {
+    body {
+      background-color: rgb(197, 142, 70); /* azul claro */
+    }
+  
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+
+/* Pantallas medianas - HD (entre 1280px y 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {
+    /* Estilos para pantallas HD estándar */
+
+    .pantalla {
+        background-color: aqua;
+        flex-direction: column;
+    }
+  }
+
+
+  /* Tabletas (pantallas pequeñas - desde 768px hasta 1279px) */
+@media (min-width: 768px) and (max-width: 1279px) {
+    /* Estilos para tabletas */
+
+    .pantalla {
+        background-color: beige;
+    }
+
+  }
+
+
+  /* Teléfonos (pantallas muy pequeñas - hasta 767px) */
+@media (max-width: 767px) {
+    /* Estilos para teléfonos */
+    .pantalla {
+        background-color: blue;
+    }
+  }
+
+  /* COMPUS Y TEL *?
+  
+
+  
